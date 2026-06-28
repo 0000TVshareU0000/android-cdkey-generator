@@ -16,8 +16,13 @@ android {
     }
 
     buildTypes {
+        debug {
+            applicationIdSuffix ".debug"
+        }
         release {
             minifyEnabled false
+            // 使用 debug 签名（CI环境无需正式签名）
+            signingConfig signingConfigs.debug
         }
     }
 
