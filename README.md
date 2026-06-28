@@ -65,3 +65,4 @@ android-cdkey-generator/
 - `cdkey-gen.py`（Python 桌面版）
 
 生成的 CDKey 可被 DUDOU AI 主程序的授权验证模块正常识别。
+trigger rebuild
