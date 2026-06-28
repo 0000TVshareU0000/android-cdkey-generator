@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="license_types">
+        <item>月卡（30天）</item>
+        <item>年卡（365天）</item>
+        <item>终生授权</item>
+    </string-array>
+</resources>
