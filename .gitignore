@@ -1,0 +1,24 @@
+# Android
+local.properties
+*.iml
+.gradle/
+build/
+app/build/
+.cxx/
+*.apk
+*.ap_
+outputs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Gradle
+gradle-app.setting
+!gradle-wrapper.jar
+
+# OS
+.DS_Store
+Thumbs.db
